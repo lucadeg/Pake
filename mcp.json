@@ -1,0 +1,6 @@
+{
+  "name": "pake-mcp",
+  "command": "python",
+  "args": ["C:/Users/Deglu/.hermes/tools/Pake/mcp_server.py"],
+  "env": {}
+}
