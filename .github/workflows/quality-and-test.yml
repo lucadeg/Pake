@@ -1,12 +1,10 @@
+
 name: Quality & Testing
 
 on:
-  push:
-    branches: [main, dev]
-  pull_request:
-    branches: [main, dev]
   workflow_dispatch:
 
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 env:
   NODE_VERSION: "22"
   PNPM_VERSION: "10.26.2"

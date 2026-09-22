@@ -1,12 +1,9 @@
+
 name: Update Contributors
 
 on:
-  push:
-    branches: [main, dev]
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 0" # Every Sunday at midnight UTC
-
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
